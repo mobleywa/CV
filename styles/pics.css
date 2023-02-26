@@ -1,0 +1,32 @@
+.profile-pic{
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.icons{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.github-pic{
+  width: 80%;
+}
+
+.linkedin-pic{
+  width: 75%;
+}
+
+.word-pic{
+  width: 80%;
+}
+
+.pdf-pic{
+  width: 75%;
+}
+
+

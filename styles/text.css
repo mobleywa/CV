@@ -1,0 +1,182 @@
+.profile-name {
+  font-family: "Pinyon Script", cursive;
+  font-size: 120px;
+  color: white;
+  text-align: center;
+  display: block;
+  line-height: 60px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-location {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 20px;
+  color: #7fa5f9;
+  text-align: center;
+}
+.profile-email {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 20px;
+  color: #7fa5f9;
+  text-align: center;
+}
+
+.profile-email p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+.profile-phone-number {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 20px;
+  color: #7fa5f9;
+  text-align: center;
+}
+.profile-phone-number p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.label-or {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: grey;
+  display: inline-block;
+}
+
+.label-section {
+  font-size: 25px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #7fa5f9;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.label-section-skills {
+  font-size: 25px;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #7fa5f9;
+  padding-left: 22px;
+  padding-right: 150px;
+}
+.JobPosition {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: left;
+  display: inline-block;
+}
+.components {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: green;
+  margin-left: 15.625em;
+  margin-top: 0em;
+  display: inline-block;
+}
+
+.text-section {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: left;
+  position: relative;
+}
+.text-section-summary {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
+  position: relative;
+}
+
+.Education {
+  color: #ffffff;
+  line-height: 25px;
+}
+
+.label-graduate {
+  color: green;
+  margin-left: 1.625em;
+  margin-top: 0em;
+}
+
+.skill-list {
+  color: #ffffff;
+  column-count: 2;
+  line-height: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.label-section-skills{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* @media screen and (max-width: 600px) { */
+  /* .profile-name { */
+    /* font-size: 30px; */
+  /* } */
+  /* .profile-location,
+  .profile-email,
+  .profile-email p,
+  .profile-phone-number,
+  .profile-phone-number p,
+  .label-or,
+  .label-section,
+  .label-section-skills,
+  .JobPosition,
+  .components
+  .text-section,
+  .text-section-summary,
+  .Education,
+  .label-graduate,
+  .skill-list 
+   {
+    font-size: 12px;
+
+  }
+} */
+
+/* If the screen size is 700px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 700px) {
+  .profile-name {
+    font-size: 70px;
+  }
+}
+
+/* If the screen size is 450px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 450px) {
+  .profile-name {
+    font-size: 50px;
+  }
+}
+/* If the screen size is 450px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 400x) {
+  .profile-name {
+    font-size: 40px;
+  }
+}
+
+/* If the screen size is 700px wide, set the font-size of <div> to 30px
+@media screen and (min-width: 800px) {
+  .label-section,
+  .skill-list,
+  .text-section,
+  .text-section-summary,
+  .skill-list
+    {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+} */
